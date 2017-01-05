@@ -27,7 +27,6 @@ echo "mongodb-org-tools hold" | sudo dpkg --set-selections
 Mac 系统环境下：
 
 ```
-
 使用homebrew安装：
 
 brew update
@@ -46,7 +45,7 @@ Windows 系统环境下：
 mongod.exe --dbpath D:\MongoDB\DB
 ```
 
-MongoDB官方文档：https://docs.mongodb.com/manual/administration/install-community/
+参考MongoDB官方文档：https://docs.mongodb.com/manual/administration/install-community/
 
 ## MongoDB 基本使用
 
@@ -89,5 +88,5 @@ sudo systemctl disable mongod
 
 ## 图形化图形化管理工具
 
-- RoboMongo：https://robomongo.org/download
 - MongoDB Compass: mongodb 官网
+- RoboMongo：https://robomongo.org/download
