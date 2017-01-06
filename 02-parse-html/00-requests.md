@@ -40,7 +40,7 @@ html = requests.post('网址', data=data).content
 
 还有一些网址，提交的内容需要是json格式，因此我们的post方法的参数可以做一些修改：
 
-html = requests.post('网址', json=data).content
+`html = requests.post('网址', json=data).content`
+
 这样写以后，requests可以自动将我们的字典转换为json字符串。
 
-下面我通过视频，分别看下具体的 get 和 post 的应用举例。
