@@ -1,6 +1,6 @@
 # web-scraping
 
-learning web scaping wthi Python.
+learning web scaping with Python.
 
 爬虫：从 Web 获取数据的程序
 
